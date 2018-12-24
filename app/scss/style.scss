@@ -1,0 +1,118 @@
+$main-color: #648cff;
+
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1200px;
+	}
+}
+
+//btn
+
+.btn {
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 15px 37px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 158px;
+	font-weight: bold;
+	user-select: none;  
+}
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	position: relative;
+	overflow-x: hidden;
+}
+
+* {
+	transition: 0.2s ease all;
+}
+
+ul,li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.section-title {
+	color: #648cff;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px;
+	font-size: 2.000em;
+	font-weight: bold;
+	&::selection {
+		background-color: orange;
+		color: #fff;
+	}
+}
+.section-suptitle {
+	text-align: center;
+	color: #999999;
+	margin-top: 21px;
+	 letter-spacing: 0.0255em;
+	 &::selection {
+		background-color: orange;
+		color: #fff;
+	}
+}
+
+@import "header";
+@import "features";
+@import "widgets";
+@import "screenshots";
+@import "comment";
+@import "download";
+@import "footer";
+@import "modal";
+
+
+/*Пульсация кнопки*/
+.offer-scroll {
+	position: relative;
+}
+.offer-scroll::before,
+.offer-scroll::after {
+	content: '';
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	bottom: -20px;
+	left: -20px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+.offer-scroll::after {
+	animation-delay: .3s;
+}
+
+@keyframes pulse {
+	0%{
+		opacity: .5;
+		transform: scale(0.5);
+	}
+	50%{
+		opacity: .5;
+	}
+	100%{
+		opacity: 0;
+	}
+
+}

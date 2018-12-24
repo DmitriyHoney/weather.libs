@@ -1,0 +1,40 @@
+.comment {
+	padding: 47px 0px 154px 0px;
+	&-review {
+		font-size: 24px;
+		position: relative;
+		margin-top: 132px;
+		line-height: 35px;
+		color: #353854;
+		-webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		&_top {
+			margin-top: 182px;
+		}
+		& span {
+			font-size: 141px;
+			color: #648cff;
+		}
+	}
+	&-start {
+		position: absolute;
+		left: -8px;
+    top: -15px;
+	}
+	&-end {
+		position: absolute;
+		right: 14px;
+    bottom: -32px;
+    transform: rotate(180deg);
+	}
+	&-author {
+		margin-top: 17px;
+		color: #353854;
+		&::selection {
+			background-color: orange;
+			color: #fff;
+		}
+	}
+}

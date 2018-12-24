@@ -1,0 +1,45 @@
+.features {
+	padding-top: 124px;
+	padding-bottom: 100px;
+	
+	&-card {
+		display: flex;
+		margin-top: 130px;
+		&__text {
+			padding: 0px 10px;
+			margin-left: 8px;
+			&::selection {
+				background-color: orange;
+			}
+		}
+		&__title {
+			color: #353854;
+			font-size: 24px;
+			font-weight: bold;
+			&::selection {
+				background-color: orange;
+				color: #fff;
+			}
+		}
+		&__intro {
+			color: #aeaeae;
+			font-size: 16px;
+			line-height: 30px;
+			margin-top: 12px;
+			&::selection {
+				background-color: orange;
+				color: #fff;
+			}
+		}
+		&__icon {
+			& img {
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				 -ms-user-select: none;
+						 user-select: none;
+			}
+			
+		}
+	}
+	
+}

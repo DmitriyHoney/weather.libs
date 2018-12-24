@@ -1,0 +1,250 @@
+@media screen and (max-width: 1200px) {
+	.download-photo img {
+    height: 505px;
+	}
+	.download-photo img:nth-child(3) {
+    display: none;
+	}
+	.download-photo img:nth-child(1) {
+    top: 83px;
+	}
+	.download-photo img:nth-child(2) {
+    top: 33px;
+	}
+	.header-marker li {
+    float: left;
+    padding: 0px 15px;
+	}
+	.header-social a {
+    padding: 0px 8px;
+	}
+	.features-card__title {
+    font-size: 22px;
+	}
+	.screenshots-round_weather {
+    right: -48px;
+	}
+	.screenshots-round_weather_sun {
+    right: 48px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.header-marker li {
+    padding: 0px 10px;
+    font-size: 17px;
+	}
+	.header-social a {
+		padding: 0px 5px;
+		font-size: 20px;
+	}
+	.header-logo {
+    font-size: 1.0em;
+	}
+	.offer-phone img {
+		height: 510px;
+	}
+	.offer-round {
+		display: none;
+	}
+	.offer-sround {
+		display: none;
+	}
+	.offer-scroll {
+    margin-top: 77px;
+	}
+	.offer-title {
+    font-size: 2.35em;
+    line-height: 60px;
+	}
+	.features-card {
+		text-align: center;
+		display: block;
+	}
+	.features-card__title {
+    margin-top: 25px;
+	}
+	.features-card__intro {
+    width: 70%;
+    margin: 16px auto 0px;
+	}
+	.features-card {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	.features-suptitle {
+		margin-bottom: 70px;
+	}
+	.screenshots-photo img {
+    height: 475px;
+	}
+	.screenshots-info__descr {
+    font-size: 16px;
+	}
+	.screenshots-info__title {
+    font-size: 29px;
+	}
+	.screenshots-round_weather {
+    display: none;
+	}	
+	.screenshots-round_temp {
+    display: none;
+	}
+	.download-photo img {
+    height: 433px;
+	}
+	.download-photo img:nth-child(2) {
+		left: 181px;
+		top: 148px;
+	}
+	.download-photo img:nth-child(1) {
+		top: 198px;
+	}
+	.comment-review {
+    font-size: 18px;
+	}
+	.comment-author {
+    font-size: 14px;
+	}
+	.comment-review span {
+    font-size: 95px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header-menu {
+		display: none;
+	}
+	.header-burger {
+		display: block;
+	}
+	.header-social a {
+		padding: 0px 5px;
+		font-size: 20px;
+	}
+	.header-social {
+		float: right;
+	}
+	.offer-title {
+    margin: 35px 0px 34px 0px;
+	}
+	.offer-phone {
+		display: none;
+	}
+	.screenshots-photo {
+    display: none;
+	}
+	.screenshots-info {
+    margin-top: 75px;
+    margin-left: 0px;
+    text-align: center;
+	}
+	.screenshots-info__descr {
+    margin: 30px auto 0px;
+	}
+	.screenshots-icons {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		margin-left: 0px;
+		text-align: center;
+	}
+	.screenshots-info_sun {
+    margin: 0px auto;
+	}
+	.download-photo {
+    display: none;
+	}
+	.footer-rules {
+    float: none;
+    text-align: center;
+	}
+	.download-title {
+    text-align: center;
+	}
+	.download-text {
+		margin: 32px auto 0px;
+		text-align: center;
+		width: 91%;
+	}
+	.download-btn_wrap {
+		width: 301px;
+		margin: 0px auto;
+	}
+	.footer-home_link {
+    right: 23px;
+	}	
+}
+
+@media screen and (max-width: 576px) {
+	.offer-title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.offer-text {
+    text-align: center;
+    margin: 0px auto;
+ }
+ .offer-btn_wrap {
+		width: 305px;
+		margin: 0px auto;
+		text-align: center;
+	 }
+	.offer-btn_features {
+		margin-left: 0px;
+	}
+	.offer-btn {
+    margin-top: 13px;
+	}
+	.offer-btn_download {
+		margin-top: 30px;
+	}
+	.comment-review {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.comment-author {
+    font-size: 14px;
+    width: 80%;
+    margin: 14px auto 0px;
+	}
+	.download-title {
+    text-transform: uppercase;
+    font-size: 24px;
+	}
+	.download-text {
+    margin: 12px auto 0px;
+    font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.header-logo {
+    font-size: 14px;
+	}
+	.header-social a {
+    padding: 0px 4px;
+    font-size: 20px;
+	}
+	.offer-title {
+    font-size: 2.05em;
+    line-height: 46px;
+	}
+	.offer-text {
+    width: 95%;
+    line-height: 29px;
+	}
+	.offer-btn_wrap {
+    width: 200px;
+    margin: 22px auto 0px;
+    text-align: center;
+	}
+	.download-btn_wrap {
+    width: 147px;
+    margin: 0px auto;
+	}
+	.modal-btn_close {
+    right: -8px;
+		top: -30px;
+	}
+}

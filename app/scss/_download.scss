@@ -1,0 +1,127 @@
+.download {
+	color: #ffffff;
+	background-color: #648cff;
+	padding: 86px 0px 109px 0px;
+	&-title {
+		text-transform: uppercase;
+		font-size: 36px;
+		&::selection {
+			background-color: orange;
+			color: #fff;
+		}
+	}
+	&-text {
+		margin-top: 32px;
+    width: 68%;
+		line-height: 23px;
+		&::selection {
+			background-color: orange;
+			color: #fff;
+		}
+	}
+	&-btn {
+		text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 9px;
+    width: 147px;
+    height: 45px;
+    padding: 12px;
+    background-color: #000;
+		margin-top: 27px;
+		float: left;
+		&::selection {
+			background-color: orange;
+			color: #fff;
+		}
+		&:hover {
+			background-color: lighten(#000, 5%);
+		}
+		&:active {
+			background-color: lighten(#000, 7%);
+			position: relative;
+			top: -2px;
+		}
+		&_app {
+			margin-right: 7px;
+		} 
+		& img {
+			width: 28px;
+			height: 28px;
+			margin-right: 7px;
+			-webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		}
+		& i {
+			margin-right: 10px;
+			font-size: 29px;
+		}
+		&_text {
+			font-weight: normal;
+			&::selection {
+				background-color: orange;
+				color: #fff;
+			}
+			& span {
+				font-size: 19px;
+				&::selection {
+					background-color: orange;
+					color: #fff;
+				}
+			}
+		}
+		&_google {
+			font-weight: 300;
+			font-size: 16px !important;
+		}
+	}
+	&-photo {
+		position: relative;
+		& img {
+			position: absolute;
+			-webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		}
+		& img:nth-child(1) {
+			left: 13px;
+			top: 51px;
+			filter: blur(5px);
+			transition:  all 0.5s ease;
+			cursor: pointer;
+			&:hover {
+				transform: scale(1.05);
+				filter: blur(0px);
+				transition:  all 0.5s ease;
+			}
+		}
+		& img:nth-child(2) {
+			left: 224px;
+			top: -23px;
+			z-index: 2;
+			transition:  all 0.5s ease;
+			cursor: pointer;
+			&:hover {
+				transform: scale(1.05);
+				transition:  all 0.5s ease;
+			}
+		}
+		& img:nth-child(3) {
+			left: 403px;
+			top: 50px;
+			z-index: 1;
+			filter: blur(5px);
+			transition:  all 0.5s ease;
+			cursor: pointer;
+			&:hover {
+				transform: scale(1.05);
+				filter: blur(0px);
+				transition:  all 0.5s ease;
+			}
+		}
+	}
+}
